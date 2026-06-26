@@ -682,9 +682,28 @@ section{
   align-items: center;
 }
 .low{
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 2rem;
+  gap: 0.5rem;
+}
+.experience{
+  background-color: black;
+  color: #b74b4b;
+  border: 0.2rem solid #b74b4b;
+  text-align: center;
+  margin-bottom: 10rem;
+  width: 9.5%;
+  margin-left: 60rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+.experience:hover{
+  transform: scale3d(1.0);
+    color: black;
+    background-color: #b74b4b;
+    box-shadow: 0 0 25px #b74b4b;
 }
 /* // Cryptocurrency Mining WebsitesPlatforms that facilitate digital asset mining.Blockchain Security: Allows decentralized computers to verify network transactions and secure digital ledgers (e.g., Proof-of-Work blockchains).Cloud Mining: Allows users to rent remote computing power to mine digital coins without purchasing expensive hardware themselves.Note on browser-based web mining: Some websites allow visitors to run mining scripts in their browser to generate coins in exchange for ad-free browsing or revenue sharing 
 (though this practice has drastically declined due to malware concerns and user system degradatio
