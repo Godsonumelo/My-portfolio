@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./css/Test.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Register</h2>
+
+            <div class="form-control">
+
+                <label for="username">Name:</label>
+                <input type="text" id="name" placeholder="Enter username">
+            </div>
+            <span style="color: red;" id="name_error"></span>
+
+            <div class="form-control">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter email">
+            </div>
+            <span style="color: red;" id="email_error"></span>
+            
+            <div class="form-control">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <span style="color: red;" id="pass_error"></span>
+            </div>
+
+            <button type="submit">Sumbit:</button>
+        </form>
+    </div>
+
+    <script src="./js/Test.js"></script>
+</body>
